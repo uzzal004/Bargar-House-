@@ -1,0 +1,673 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Alfa Slab One', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-section{background-image: url(../img/main-banner.png);background-position: center;background-repeat: no-repeat;background-size: cover;min-height: 50vh;padding-bottom: 80px;}
+.top-header{
+
+display: flex;
+
+justify-content: space-between;
+
+padding-top: 35px;
+}
+.top-header .logo{
+
+}
+.top-header .logo img{
+    
+}
+.top-header .delivery{
+}
+.top-header .delivery ul{
+
+list-style: none;
+}
+.top-header .delivery ul li{font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.top-header .delivery ul li i{font-size: 22px;
+    
+    width: 35px;}
+
+.navbar-light .navbar-nav .nav-link {
+    transition: .4s all ease-in-out;
+
+   
+text-transform: uppercase;
+   
+font-weight: 500;
+   
+letter-spacing: 4px;
+   
+font-family: 'Bebas Neue', cursive;
+   
+font-size: 20px;
+   
+padding: 0px 0px;
+   
+color: #3D2514;
+   
+position: relative;
+   
+margin: -28px 50px;
+   
+margin-right: -15px;
+
+cursor: pointer;
+position: relative;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e75827;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    background-color: #e75827;
+    height: 2px;
+    width: 0%; 
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+
+.nav-link:hover::after{
+width: 100% !important;
+
+}
+.week-section{
+
+margin-top: 80px;
+}
+.week-section h3{
+    
+text-transform: uppercase;
+    
+font-size: 18px;
+    
+border: 3px dashed black;
+    
+width: 425px;
+    
+padding: 10px 20px;
+    
+font-family: 'Bebas Neue', cursive;
+    
+letter-spacing: 2px;
+    
+border-radius: 5px;
+    
+color: #3D2514;
+}
+.week-section h1{
+    
+font-size: 115px;
+    
+font-weight: 500;
+    
+letter-spacing: 2px;
+    
+text-transform: uppercase;
+    
+text-shadow: 3px 3px 3px #fff;
+    
+font-family: 'Bebas Neue', cursive;
+    
+font-family: 'Alfa Slab One', cursive;
+    
+padding: 0;
+    
+margin: 0;
+    
+color: #3D2514;
+}
+.week-section h2{
+ font-size: 62px;
+ font-weight: 500;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ text-shadow: 3px 3px 3px #fff;
+ font-family: 'Bebas Neue', cursive;
+ font-family: 'Alfa Slab One', cursive;
+ padding: 0;
+ margin: 0;
+ color: #3D2514;
+}
+.banner-burger{
+
+position: relative;
+}
+.burger-img{
+
+}
+.burger-img img{
+} 
+
+
+
+.burger-price{
+
+height: 150px;
+
+width: 150px;
+
+border: 3px solid #BF2222;
+
+background: #BF2222;
+
+border-radius: 50%;
+
+position: absolute;
+
+top: 63%;
+
+left: -11%;
+
+transform: translate(63%, 11%);
+}
+.dollar{height: 130px;width: 130px;border: 3px dashed #fff;border-radius: 50%;padding: 25px 0;margin: 7px 7px;}
+.dollar h3{
+
+color: #fff;
+
+font-family: 'Bebas Neue', cursive;
+
+font-size: 45px;
+
+padding: 0;
+
+margin: 0;
+}
+.dollar h3 span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+.dollar h4{
+
+color: #fff;
+
+font-family: 'Bebas Neue', cursive;
+
+font-size: 28px;
+
+font-weight: 100;
+
+letter-spacing: 4px;
+
+margin: 0;
+
+padding: 0;
+}
+.popular-section {
+
+}
+.popular-burger{
+
+position: relative;
+}
+.popular-img img{
+
+}
+.taste-section{
+
+position: absolute;
+
+top: 5%;
+
+left: 4%;
+
+color: #ffff;
+}
+.taste-section h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+.taste-section h1{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.description{
+
+}
+.more-fun{
+
+position: relative;
+
+margin-bottom: 35px;
+
+margin-left: -15px;
+}
+.more-fun-img{
+
+}
+.more-fun-img img{
+    
+}
+.tasty-burger{
+
+position: absolute;
+
+color: #ffff;
+
+top: 10%;
+
+left: 4%;
+}
+.tasty-burger h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+.tasty-burger h1{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.tasty-section{
+
+}
+.tasty-section h1{
+    font-family: 'Alfa Slab One', cursive;
+margin: 10px 0;
+}
+.tasty-section p{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-tasty{
+    font-family: 'Bebas Neue', cursive;
+    border: 1px solid #FFC045;
+    background: #FFC045;
+    border-radius: 0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding: 5px 15px;
+    font-size: 19px;
+}
+.burgers{
+    
+text-align: center;
+}
+.order-section{
+margin: auto;
+}
+.order-section h2{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #3D2514;
+}
+.order-section p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.btn-order{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border: 1px solid #BF2222;
+    background: #BF2222;
+    padding: 10px 22px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.btn-order:hover{
+    background-color: transparent;
+    color: #BF2222;
+    font-family: 'Alfa Slab One', cursive;
+}
+.events-section{
+
+width: 80%;
+
+margin-left: 10%;
+
+margin-bottom: 6%;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.upcoming-events{
+
+margin-left: 116px;
+
+margin-top: 30px;
+}
+.upcoming-events h5{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #3D3D3D;
+    margin-bottom: 4px;
+}
+.upcoming-events h1{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+    text-transform: uppercase;
+    color: #3D2514;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.upcoming-events p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: gray;
+    font-size: 16px;
+    width: 82%;
+}
+.burger-content{
+
+width: 90%;
+
+margin-left: -8px;
+}
+.burger-content img{
+    
+}
+.owl-dots{
+    margin-left: 112px;
+}
+.owl-dot{
+    vertical-align: revert;
+}
+.owl-dot span{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background:#dcdcdc;
+    border-radius:50%;
+    margin-right: 6px;
+    border:1px solid #dcdcdc;
+}
+.owl-dots .active span{
+    background: #ffc045;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #ffc045;
+    border-radius:50%;
+}
+.form-section{
+background-image: url(../img/img-banner.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 780px;
+}
+.form-content{
+
+}
+.form-content h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.form-content h1{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #3d2514;
+}
+.form-section form{
+   
+}
+.table-content{
+    margin-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.table-content input{
+   
+}
+
+.table-left{
+}
+.table-left input{
+
+margin-bottom: 28px;
+
+padding: 15px 20px;
+
+border: none;
+
+border: 1px solid #80808052;
+
+background: transparent;
+}
+.table-right{
+}
+.table-right input{
+    
+margin-bottom: 28px;
+    
+padding: 15px 20px;
+    
+border: none;
+    
+border: 1px solid #80808052;
+    
+background: transparent;
+}
+.form-control:focus {
+    color: #212529;
+    background-color:transparent;
+    border: 1px solid #80808052;
+    outline: 0;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    font-family: 'Bebas Neue', cursive;
+    color:gray;
+}
+
+.btn-find{
+
+border: none;
+
+border: 1px solid #bf2222;
+
+width: 100%;
+
+background: #bf2222;
+
+color: #fff;
+
+padding: 15px 0;
+
+font-family: 'Alfa Slab One', cursive;
+}
+.btn-find:hover{
+    color:#bf2222;
+    background-color: transparent;
+    border: 1px solid #80808052;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+footer{
+background-image: url(../img/fotter-banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.footer-logo{
+}
+.footer-logo img{
+    
+width: 25%;
+}
+.footer-content{display: flex;justify-content: space-between;margin-top: 55px;}
+.footer-p{
+
+}
+.footer-p p{
+    
+color: #f8f9faab;
+    
+font-size: 18px;
+}
+.footer-icon{
+
+color: #ffff;
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 15px;
+
+font-family: 'Montserrat', sans-serif;
+}
+.footer-icon ul{
+    
+list-style: none;
+    
+margin: 0;
+}
+.footer-icon ul li{
+
+display: flex;
+
+margin: 0;
+
+padding: 0;
+
+margin-bottom: 15px;
+
+text-transform: uppercase;
+}
+.footer-icon ul li .icon{
+    
+margin: 0;
+    
+padding: 0;
+    
+margin-top: -4px;
+}
+.footer-icon ul li .icon i{
+    
+width: 60px;
+    
+font-size: 35px;
+    
+margin-left: -8px;
+}
+.footer-icon ul li h3{
+    
+margin: 0;
+    
+font-size: 22px;
+    
+font-family: 'Bebas Neue', cursive;
+}
+.copyright-section{
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 135px;
+}
+.copy{
+
+letter-spacing: 1px;
+}
+.copy p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #ffffffd1;
+    margin-top: 12px;
+}
+.social-icon{
+
+}
+.social-icon ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+width: 58%;
+    
+margin-left: 180px;
+}
+.social-icon ul li{
+    
+height: 43px;
+    
+width: 43px;
+    
+margin: 0;
+    
+border: 1px solid #fff;
+    
+border-radius: 50%;
+    
+background: #fff;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+}
+.social-icon ul li i{
+    
+font-size: 24px;
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+.social-icon ul li i:hover{
+    
+    color: #cb923f;
+}
+
+.burgers-img-2{
+
+text-align: center;
+}
+.burgers-img-2 img{
+    
+width: 75%;
+}
+.burgers-img-2 h2{
+    
+margin-top: 30px;
+}
+.burgers h2{
+
+margin-top: 30px;
+}
